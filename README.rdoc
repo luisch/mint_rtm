@@ -1,0 +1,21 @@
+= Redmine 繰り返しチケット作成プラグイン
+
+Redmineのチケットを繰り返し化するプラグイン（自宅版）
+
+== 内容
+
+* チケットを繰り返し再利用する
+* チケットをコピーして、開始日・期日だけ置き換える
+* 繰り返し頻度はruby chronic利用によりテキストで表現する
+
+== Requirement
+
+* require 'chronic'
+
+== TODO
+
+* インストール後、rtm_hook.rbのパラメーター箇所をべた書きで書き替えてください。
+
+== License
+
+This plugin is licensed under the BSD.
